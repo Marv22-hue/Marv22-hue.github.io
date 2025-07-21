@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { BOX_SIZE_PX, COLOR_SEQUENCE, COLOR_MAP, CLIP_PATHS } from '../constants';
+import { BOX_SIZE_PX, COLOR_SEQUENCE, COLOR_MAP, CLIP_PATHS } from '../constants.ts';
 
 interface BoxProps {
   rotation: number;
