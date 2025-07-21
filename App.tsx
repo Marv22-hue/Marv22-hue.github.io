@@ -1,17 +1,17 @@
 
 import React, { useState, useEffect, useCallback, useRef } from 'react';
-import { GameState, ColorName } from './types';
+import { GameState, ColorName } from './types.ts';
 import {
   COLOR_SEQUENCE,
   BALL_SIZE_PX,
   GAME_SPEED,
   HIGH_SCORE_KEY,
   BOX_SIZE_PX
-} from './constants';
-import Ball from './components/Ball';
-import Box from './components/Box';
-import GameOver from './components/GameOver';
-import RotateCwIcon from './components/RotateCwIcon';
+} from './constants.ts';
+import Ball from './components/Ball.tsx';
+import Box from './components/Box.tsx';
+import GameOver from './components/GameOver.tsx';
+import RotateCwIcon from './components/RotateCwIcon.tsx';
 
 const App: React.FC = () => {
   const [gameState, setGameState] = useState<GameState>(GameState.Idle);
