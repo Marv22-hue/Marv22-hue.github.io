@@ -1,5 +1,5 @@
 
-import { ColorName } from './types';
+import { ColorName } from './types.ts';
 
 export const BOX_SIZE_PX = 150;
 export const BALL_SIZE_PX = 40;
