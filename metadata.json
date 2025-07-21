@@ -1,6 +1,4 @@
 {
-  "name": "Pomodoro Focus Timer",
-  "description": "A sleek and modern Pomodoro timer to help you focus on your tasks. It features customizable work, short break, and long break sessions with a visually appealing circular progress indicator.",
-  "requestFramePermissions": [],
-  "prompt": ""
+  "name": "Simple Timer",
+  "description": "A simple countdown timer application."
 }
