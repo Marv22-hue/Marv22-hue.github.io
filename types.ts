@@ -1,8 +1,6 @@
 
-export enum GameState {
-  Idle,
-  Playing,
-  GameOver,
+export enum TimerMode {
+  WORK = 'WORK',
+  SHORT_BREAK = 'SHORT_BREAK',
+  LONG_BREAK = 'LONG_BREAK',
 }
-
-export type ColorName = 'red' | 'green' | 'blue' | 'yellow';
