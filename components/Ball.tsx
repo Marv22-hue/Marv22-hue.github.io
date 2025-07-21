@@ -1,7 +1,7 @@
 
 import React from 'react';
-import { ColorName } from '../types';
-import { BALL_SIZE_PX, COLOR_MAP } from '../constants';
+import { ColorName } from '../types.ts';
+import { BALL_SIZE_PX, COLOR_MAP } from '../constants.ts';
 
 interface BallProps {
   yPosition: number;
