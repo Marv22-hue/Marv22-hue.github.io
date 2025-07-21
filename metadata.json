@@ -1,6 +1,6 @@
 {
-  "name": "Color Box Drop",
-  "description": "A fast-paced game where you rotate a box to match the color of a falling ball. Tap the screen or press space to rotate the box. Match the colors to score, but a single mistake ends the game.",
+  "name": "Pomodoro Focus Timer",
+  "description": "A sleek and modern Pomodoro timer to help you focus on your tasks. It features customizable work, short break, and long break sessions with a visually appealing circular progress indicator.",
   "requestFramePermissions": [],
   "prompt": ""
 }
