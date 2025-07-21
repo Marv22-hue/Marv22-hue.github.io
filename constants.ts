@@ -1,5 +1,5 @@
 
-import { TimerMode } from './types';
+import { TimerMode } from './types.ts';
 
 export const DURATION: Record<TimerMode, number> = {
   [TimerMode.WORK]: 25 * 60, // 25 minutes
